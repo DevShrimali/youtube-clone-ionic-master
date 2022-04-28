@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="51.996" viewBox="0 0 56 51.996">
+  <g id="filled_outline" data-name="filled outline" transform="translate(-6 -8)">
+    <rect id="Rectangle_586" data-name="Rectangle 586" width="41" height="50" rx="5" transform="translate(57 14) rotate(90)" fill="#fff"/>
+    <path id="Path_4095" data-name="Path 4095" d="M7,24V19a5,5,0,0,1,5-5H52a5,5,0,0,1,5,5v5Z" fill="#ffc400"/>
+    <path id="Path_4096" data-name="Path 4096" d="M20,19a2,2,0,0,1-2-2V11a2,2,0,0,1,4,0v6A2,2,0,0,1,20,19Z" fill="#fff"/>
+    <path id="Path_4097" data-name="Path 4097" d="M44,19a2,2,0,0,1-2-2V11a2,2,0,0,1,4,0v6A2,2,0,0,1,44,19Z" fill="#fff"/>
+    <rect id="Rectangle_587" data-name="Rectangle 587" width="5" height="5" transform="translate(29 32) rotate(90)" fill="#a4a4ac"/>
+    <rect id="Rectangle_588" data-name="Rectangle 588" width="5" height="5" transform="translate(40 32) rotate(90)" fill="#a4a4ac"/>
+    <rect id="Rectangle_589" data-name="Rectangle 589" width="5" height="5" transform="translate(51 32) rotate(90)" fill="#a4a4ac"/>
+    <rect id="Rectangle_590" data-name="Rectangle 590" width="5" height="5" transform="translate(40 43) rotate(90)" fill="#a4a4ac"/>
+    <rect id="Rectangle_591" data-name="Rectangle 591" width="5" height="5" transform="translate(18 43) rotate(90)" fill="#a4a4ac"/>
+    <rect id="Rectangle_592" data-name="Rectangle 592" width="5" height="5" transform="translate(29 43) rotate(90)" fill="#a4a4ac"/>
+    <circle id="Ellipse_215" data-name="Ellipse 215" cx="8" cy="8" r="8" transform="translate(45 43)" fill="#ffc400"/>
+    <path id="Path_4098" data-name="Path 4098" d="M50.45,56l-3.17-3.3,1.44-1.4,1.75,1.81,5.82-5.82,1.42,1.42ZM34,42h7v7H34Zm2,5h3V44H36Zm5-9H34V31h7Zm-2-5H36v3h3ZM12,49V42h7v7Zm2-2h3V44H14ZM45,31h7v7H45Zm2,5h3V33H47ZM62,51a9,9,0,0,1-16.48,5H12a6,6,0,0,1-6-6V19a6,6,0,0,1,6-6h5V11a3,3,0,0,1,6,0v2H41V11a3,3,0,0,1,6,0v2h5a6,6,0,0,1,6,6V43.52A9,9,0,0,1,62,51Zm-5-8.07h.09ZM43,17a1,1,0,0,0,2,0V11a1,1,0,0,0-2,0ZM19,17a1,1,0,0,0,2,0V11a1,1,0,0,0-2,0ZM8,24H56V19a4,4,0,0,0-4-4H47v2a3,3,0,0,1-6,0V15H23v2a3,3,0,0,1-6,0V15H12a4,4,0,0,0-4,4ZM44.52,54h0A9,9,0,0,1,56,42.52h0V26H8V50a4,4,0,0,0,4,4ZM45,55.07a.93.93,0,0,0,0-.1.93.93,0,0,1,0,.1ZM60,51a7,7,0,1,0-7,7,7,7,0,0,0,7-7ZM30,38H23V31h7Zm-2-5H25v3h3Zm-5,9h7v7H23Zm2,5h3V44H25Z"/>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab 4
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+
+
+  <ion-row *ngIf="!cards.length">
+    <ion-col *ngFor="let i of [].constructor(6)" class="ion-margin-bottom" size="6">
+      <ion-card>
+        <ion-skeleton-text animated style="width: 100%; height: 130px; margin: 0;"></ion-skeleton-text>
+        <ion-skeleton-text animated style="width: 80%; height: 20px !important; margin: 10px;"></ion-skeleton-text>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+
+
+  <ion-row>
+    <ion-col *ngFor="let card of cards" class="cards ion-margin-bottom" size="6">
+      <ion-card>
+        <div></div>
+        <img [src]="'./assets/data/icon/' + card.id + '.svg'">
+        <h6>{{ card.title }}</h6>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content refreshingSpinner="crescent" pullingIcon="refresh-outline"></ion-refresher-content>
+  </ion-refresher>
+
+  <!-- <ion-row>
+    <ion-col size="6">
+      <ion-card>
+        <div></div>
+        <img src="../../assets/data/ac.svg" alt="">
+        <h6>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</h6>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card>
+        <div></div>
+        <img src="../../assets/data/cl.svg" alt="">
+        <h6>Lorem ipsum dolor sit amet.</h6>
+      </ion-card>
+    </ion-col>
+    <ion-col size="12">
+      <ion-card>
+        <div></div>
+        <img src="../../assets/data/er.svg" alt="">
+        <h6>Lorem ipsum dolor sit amet.</h6>
+      </ion-card>
+    </ion-col>
+    <ion-col size="12">
+      <ion-card>
+        <div></div>
+        <img src="../../assets/data/fr.svg" alt="">
+        <h6>Lorem ipsum dolor sit amet.</h6>
+      </ion-card>
+    </ion-col>
+  </ion-row> -->
+</ion-content>

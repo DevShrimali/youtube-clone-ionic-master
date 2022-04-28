@@ -1,0 +1,27 @@
+ .button-bar {
+   display: flex;
+   overflow-x: scroll;
+    
+   ion-button::part(native){
+       padding: 16px;
+       box-shadow: none;
+   }
+ }
+
+ ::-webkit-scrollbar {
+   display: none;
+ }
+
+//  ion-icon {
+//    --ionicon-stroke-width: 20px
+//  }
+
+ .active {
+   --background: #4f4f4f;
+   --color: #fff;
+ }
+
+ .inactive {
+   --background: #edefef;
+   --color: var(--ion-color-primary);
+ }

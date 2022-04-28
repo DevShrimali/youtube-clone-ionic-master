@@ -1,0 +1,7 @@
+{
+  "name": "youtube-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

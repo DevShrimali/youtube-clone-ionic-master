@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Presence",
+        "id": 1
+    },
+    {
+        "title": "Leaves",
+        "id": 2
+    },
+    {
+        "title": "Holidays",
+        "id": 3
+    },
+    {
+        "title": "Notices",
+        "id": 4
+    },
+    {
+        "title": "Leads",
+        "id": 5
+    },
+    {
+        "title": "Profile",
+        "id": 6
+    }
+]
