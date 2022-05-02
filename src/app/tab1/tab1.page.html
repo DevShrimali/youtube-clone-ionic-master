@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header #header>
   <ion-toolbar color="light">
     <img src="../../assets/data/logo.png" width="100px" alt="">
     <ion-buttons slot="end">
@@ -22,7 +22,7 @@
 </ion-header>
  
 
-<ion-content>
+<ion-content [appHideHeader]="header" scrollEvents="true">
   <div *ngIf="!videos.length">
     <div *ngFor="let i of [].constructor(4)" class="ion-margin-bottom">
       <ion-skeleton-text animated style="width: 100%; height: 30vh !important;"></ion-skeleton-text>
@@ -31,11 +31,13 @@
     </div>
   </div>
 
-  <!-- <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
     <ion-refresher-content refreshingSpinner="crescent" pullingIcon="refresh-outline"></ion-refresher-content>
-  </ion-refresher> -->
+  </ion-refresher>
 
   <div *ngFor="let video of videos" class="video ion-margin-bottom">
+    <div class="duration">{{ video.duration * 1000 | date:'mm:ss'}}</div>
+
     <img [src]="'./assets/data/' + video.id + '.jpeg'">
     <ion-row>
       <ion-col size="2" class="">

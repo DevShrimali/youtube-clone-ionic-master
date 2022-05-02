@@ -27,10 +27,10 @@ export class Tab1Page {
 
     this.videos = homeData;
 
-    // setTimeout(() => {
-    //   this.selectSegment(0);
-    //   this.videos = homeData;
-    // }, 2000);
+    setTimeout(() => {
+      this.selectSegment(0);
+      this.videos = homeData;
+    }, 2000);
   }
     selectSegment(index) {
       this.segments.map((item)=> (item.selected = false));
